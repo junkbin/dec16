@@ -6,6 +6,35 @@ const styles = StyleSheet.create({
         flex : 1,
         justifyContent : 'center',
         alignItems : 'center'
+    },
+
+    bgfy : {
+        ...Platform.select({
+            'android' : {
+               backgroundColor: 'tomato' 
+            },
+
+            'ios' : {
+                backgroundColor: 'gold'
+            }
+        })
+    },
+
+    textify : {
+        ...Platform.select({
+            android: {
+                color : 'ghostwhite',
+                fontSize : 50,
+                fontFamily : 'cursive'
+            },
+
+            ios : {
+                color : 'green',
+                fontSize : 40,
+                fontStyle: 'italic', 
+                fontFamily: "Helvetica"
+            }
+        })
     }
 
 });
