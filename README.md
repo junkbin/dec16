@@ -3,6 +3,8 @@
 * ``` yarn start ```
 
 ## TODO
+* Platform Specific
+* Custom Native Module Integration. (Starts with Android) 
 * Native Base
 * Multiple Component
 * Navigation
