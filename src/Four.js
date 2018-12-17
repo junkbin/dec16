@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
+import {styles} from './FourStyle';
+
 export class Four extends React.Component {
     constructor(props) {
         super(props);
@@ -9,8 +11,8 @@ export class Four extends React.Component {
 
     render() {
         return (
-            <View>
-                <Text>{this.state.title}</Text>
+            <View style={[styles.container, styles.bgfy]}>
+                <Text style={styles.textify}>{this.state.title}</Text>
             </View>
         );
     }
