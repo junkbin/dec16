@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
             },
 
             'ios' : {
-                backgroundColor: 'gold'
+                backgroundColor: 'royalblue'
             }
         })
     },
